@@ -65,6 +65,7 @@ if (app.Environment.IsDevelopment())
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "");
     });    
+    app.UseHsts();
 }
 
 // ==========VALIDATE IF END POINT IS AUTHORIZED================
